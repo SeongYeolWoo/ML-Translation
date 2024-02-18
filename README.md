@@ -2,6 +2,7 @@
 
 ## 훈련시 train.py 
 - tokenize 후 BPE 적용한 데이터셋으로 학습
+- BPE는 김기현님의 subword-nmt를 사용하였습니다.(https://github.com/kh-kim/subword-nmt)
 ```
 train.py [-h] --model_fn MODEL_FN --train TRAIN --valid VALID --lang LANG [--gpu_id GPU_ID]
                 [--off_autocast] [--batch_size BATCH_SIZE] [--n_epochs N_EPOCHS] [--verbose VERBOSE]
